@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">SPL Company</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+
+          <li class="dropdown">
+            <a href="staffing.html">Staffing</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Permanent Staffing</a></li>
+              <li><a href="#">Contract Staffing</a></li>
+              <li><a href="#">Temporary Staffing</a></li>
+              <li><a href="#">IT Staffing</a></li>
+              <li><a href="#">Healthcare Staffing</a></li>
+              <li><a href="#">Retail Staffing</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="payroll.html">Payroll</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Payroll Processing</a></li>
+              <li><a href="#">Statutory Compliance</a></li>
+              <li><a href="#">Recruitment Process Outsourcing</a></li>
+              <li><a href="#">HR Business Process Outsourcing</a></li>
+              <li><a href="#">Consulting & Related Services</a></li>
+              <li><a href="#">Compliance Audit</a></li>
+              <li><a href="#">Workplace Insights</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="logistics.html">Logistics</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Transportation Services</a></li>
+              <li><a href="#">Warehousing Services</a></li>
+              <li><a href="#">Supply Chain Services</a></li>
+              <li><a href="#">Reverse Logistics Services</a></li>
+              <li><a href="#">Courier Services</a></li>
+              <li><a href="#">E-Commerce Services</a></li>
+              <li><a href="#">Goods Services</a></li>
+            </ul>
+          </li>
+
+          <li><a href="track.html">Tracking</a></li>
+          <li><a href="jobseekers.html">Careers</a></li>
+          <li><a href="contactUs.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="staffing-container1">
+          <h1>Contact Us</h1>
+          <p>We’re here to answer your questions</p>
+        </div>
+      </section>
+    </main>
+        <div class="contact-container">
+        <h4>Send us a message</h4>
+        <form class="contact-form">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required />
+
+            <label>Email Address</label>
+            <input type="email" placeholder="example@domain.com" required />
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="1234567890" />
+
+            <label>Your Message</label>
+            <textarea  rows="4" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <h4>Contact Information</h4>
+        <p><strong>Address:</strong> 123 Staffing & Logistics Street, Hyderabad, India</p>
+        <p><strong>Email:</strong> contact@staffinglogistics.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Working Hours:</strong><br>Mon – Fri: 9:00 AM – 6:00 PM<br>Sat: 10:00 AM – 2:00 PM</p>
+
+        <hr />
+    </div>
+
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About us</h3>
+          <ul>
+            <li><a href="#">What we do</a></li>
+            <li><a href="#">Our specialisms</a></li>
+            <li><a href="#">Careers with us</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contactUs.html">Contact us</a></li>
+            <li><a href="#">Data protection policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Staffing Services</h3>
+          <ul>
+            <li><a href="#">Permanent Staffing</a></li>
+            <li><a href="#">Contract Staffing</a></li>
+            <li><a href="#">Temporary Staffing</a></li>
+            <li><a href="#">IT Staffing</a></li>
+            <li><a href="#">HealthCare Staffing</a></li>
+            <li><a href="#">Retail Staffing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Payroll Services</h3>
+          <ul>
+            <li><a href="#">Payroll Processing</a></li>
+            <li><a href="#">Statutory Compliance</a></li>
+            <li><a href="#">Recruitment Process Outsourcing</a></li>
+            <li><a href="#">HR Business Process Outsourcing</a></li>
+            <li><a href="#">Consulting & Related Services</a></li>
+            <li><a href="#">Compliance Audit</a></li>
+            <li><a href="#">Workplace Insights</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Logistics Services</h3>
+          <ul>
+            <li><a href="#">Transportation Services</a></li>
+            <li><a href="#">Warehousing Services</a></li>
+            <li><a href="#">Supply Chain Services</a></li>
+            <li><a href="#">Reverse Logistics Services</a></li>
+            <li><a href="#">Courier Services</a></li>
+            <li><a href="#">E-Commerce Services</a></li>
+            <li><a href="#">Goods Services</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer-branding">
+          <img src="logo.jpeg" alt="Careers Logo" class="footer-logo" height="30px">
+          <img src="dataprotection.jpeg" alt="Data Protection Assured" class="footer-logo" height="30px">
+          
+          <img src="ODF.png" class="footer-logo" alt="LinkedIn" height="30px">
+          <img src="fb.jpeg" class="footer-logo" alt="Facebook" height="30px">
+      </div>
+
+      <div class="footer-bottom">
+        <hr>
+        <p>&copy; 2025 SPL Company. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
